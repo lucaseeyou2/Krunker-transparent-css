@@ -3,4 +3,4 @@ This transparent css works for the client version of [Krunker.io](https://krunke
 
 ## Changes
 v1 Setting up the README.md and main.css.\
-v2 Adding social.custom.css, renamed main.css to main_custom.css and updating README.md.\
+v2 Adding social.custom.css, renamed main.css to main_custom.css and updating README.md.
