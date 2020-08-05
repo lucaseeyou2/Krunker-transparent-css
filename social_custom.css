@@ -1,0 +1,12 @@
+.marketCard{
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cardActions{
+    border-radius: 25px;
+}
+
+#aContainer{
+    display: none;
+}
