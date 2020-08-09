@@ -1,12 +1,69 @@
+:root{
+    --i: rgba(0,0,0,0);
+}
 .marketCard{
     border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--i);
 }
 
 .cardActions{
     border-radius: 25px;
 }
 
-#aContainer{
+#aContainer, #aHolder{
+    display: none!important;
+    background-color: var(--i);
+}
+
+#navBar{
+    background-color: var(--i);
+}
+
+*::-webkit-scrollbar{
     display: none;
+}
+
+.marketPrice{
+    background-color: var(--i);
+    color: white;
+}
+
+#marketList{
+    transform: scale(0.9);
+}
+
+#searchPInput{
+    background-color: var(--i);
+    color: white;
+}
+
+#searchPInput::placeholder{
+    color: white;
+}
+
+#popupBack, #errorDisplay{
+    background-color: var(--i);
+}
+
+#invValue, #invTrack{
+    background-color: var(--i);
+    color: white;
+}
+
+.scrollItem, .leaderNav2{
+    background-color: var(--i);
+    color: white;
+}
+
+#clanwarsProg, .overlay{
+    background-color: var(--i);
+}
+
+.regionCard{
+    background-color: var(--i);
+    color: white;
+}
+
+.leaderBtn{
+    background-color: var(--i);
 }
