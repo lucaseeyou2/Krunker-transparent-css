@@ -6,5 +6,5 @@ The usage of the following ressources can only be used on Browsers and Also the 
 https://www.dropbox.com/s/k7nwz5k8xzblsiu/This.png?dl=0).
 
 ## Changes / Fixes
-* v1 Setting up the **README.md** and **main.css**.\
+* v1 Setting up the **README.md** and **main.css**.
 * v2 Adding **social.custom.css**, renamed **main.css to main_custom.css**, and updating **README.md**.
