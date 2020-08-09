@@ -1,6 +1,11 @@
 :root{
-    --i : rgba('0,0,0,0');
+    --i : rgba('0, 0, 0, 0');
 }
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
 #aContainer, #krunkerio_728x90_1{
     background-color: var(--i);
     display: none;
@@ -11,23 +16,12 @@
     color: white;
     box-shadow: none;
 }
-#menuWindow::-webkit-scrollbar{
-    display: none;
-}
-.menuItem, .menuItem:hover{
+
+.menuItem, .menuItem:hover, #signedOutHeaderBar, .skinCard{
     background-color: var(--i);
 }
 
-.skinCard{
-    border-radius: 25px;
-    background-color: var(--i);
-}
-
-#signedOutHeaderBar{
-    background-color: var(--i);
-}
-
-.shopCard{
+.shopCard, .skinCard{
     border-radius: 25px;
 }
 
@@ -36,28 +30,16 @@
     transform: translateY(-20);
 }
 
-#signedInHeaderBar{
+#signedInHeaderBar, .settingsHeader{
     background-color: var(--i);
 }
 
-.menuTabNew{
-    color: white;
-    background-color: var(--i);
-}
-
-.settingsHeader{
-    background-color: var(--i);
-}
-.settName{
-    color: white;
-}
-
-#settSearch, #settSearch::placeholder{
+#settSearch, #settSearch::placeholder, .menuTabNew{
     color:white;
     background-color: var(--i);
 }
 
-div{
+div, .settName, .floatR, .floatR > span{
     color: white;
 }
 
@@ -65,31 +47,20 @@ div{
     color: var(--i);
 }
 
-.floatR, .floatR > span{
-    color: white;
-}
-
 #subLogoButtons > div{
     border-radius: 25px;
     text-shadow: none!important;
-    transition: 0.5ms;
+    transition: 0.01ms;
     background-color: var(--i)!important;
     box-shadow: none!important;
 }
 
-.headerBarRight.headerBar{
-    background-color: var(--i);
-}
-
-#endAHolderL{
+.headerBarRight.headerBar, #endAHolderL, .reqW{
     background-color: var(--i);
 }
 
 #endAContainer, #merchImg{
     display: none;
-}
-.reqW{
-    background-color: var(--i);
 }
 
 .reqWLvl, .reqWTxt{
@@ -105,7 +76,7 @@ div{
     font-size: 20px;
 }
 
-#accResp>span{
+#accResp > span{
     color:cyan!important;
     text-decoration: underline;
 }
@@ -144,12 +115,11 @@ div{
     background-color: var(--i);
 }
 
-.chatItem{
+.chatItem, #customizeButton{
     background-color: var(--i);
 }
 
 #customizeButton{
-    background-color: var(--i);
     box-shadow: none;
     text-shadow: none;
 }
@@ -182,11 +152,6 @@ div{
 
 #kCProfile{
     border-radius: 25px;
-}
-
-#kClvl{
-    text-shadow: var(--inv)!important;
-    color: yellow!important;
 }
 
 #menuFPS{
