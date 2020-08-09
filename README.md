@@ -3,7 +3,7 @@ This transparent CSS works for the client version of [Krunker.io](https://krunke
 
 ## Usage 
 The usage of the following ressources can only be used on Browsers and Also the client version of Krunker. If you have downloaded the files it should like something like [this](
-https://www.dropbox.com/s/k7nwz5k8xzblsiu/This.png?dl=0).
+https://www.dropbox.com/s/k7nwz5k8xzblsiu/This.png?dl=0). Note: Now, the css is not working quite right in mods try after an update to put it in your mod.
 
 ## Changes / Fixes
 * v1 Setting up the **README.md** and **main.css**.
