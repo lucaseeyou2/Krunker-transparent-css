@@ -86,12 +86,6 @@ div, .settName, .floatR, .floatR > span{
     font-size: 25px;
 }
 
-.button.lgn{
-    background-color: var(--i);
-    text-shadow: none!important;
-    box-shadow: none;
-}
-
 .sliderVal, .slider, input:checked+.slider{
     background-color: var(--i);
 }
@@ -115,11 +109,12 @@ div, .settName, .floatR, .floatR > span{
     background-color: var(--i);
 }
 
-.chatItem, #customizeButton, #killCard{
+.chatItem, #customizeButton{
     background-color: var(--i);
 }
 
 #customizeButton{
+    background-color: var(--i);
     box-shadow: none;
     text-shadow: none;
 }
@@ -146,6 +141,10 @@ div, .settName, .floatR, .floatR > span{
     }
 }
 
+#killCard{
+    background-color: var(--i);
+}
+
 #kCProfile{
     border-radius: 25px;
 }
@@ -162,4 +161,21 @@ div, .settName, .floatR, .floatR > span{
 #gameMessage{
     font-size: 30px;
     text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+}
+
+.button.buttonP.lgn, #mLevelCont, #customizeButton{
+    background-color: var(--i)!important;
+    box-shadow: none!important;
+}
+
+.terms.standout{
+    color: #5699eb!important;
+}
+
+.chalCard{
+    background-color: var(--i);
+}
+
+.settText.floatR{
+    color: white!important;
 }
