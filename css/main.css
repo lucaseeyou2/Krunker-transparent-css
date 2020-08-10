@@ -1,0 +1,165 @@
+:root{
+    --i : rgba('0, 0, 0, 0');
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+#aContainer, #krunkerio_728x90_1{
+    background-color: var(--i);
+    display: none;
+}
+
+#menuWindow{
+    background-color: var(--i);
+    color: white;
+    box-shadow: none;
+}
+
+.menuItem, .menuItem:hover, #signedOutHeaderBar, .skinCard{
+    background-color: var(--i);
+}
+
+.shopCard, .skinCard{
+    border-radius: 25px;
+}
+
+#mainLogo{
+    transform: scale(0.25);
+    transform: translateY(-20);
+}
+
+#signedInHeaderBar, .settingsHeader{
+    background-color: var(--i);
+}
+
+#settSearch, #settSearch::placeholder, .menuTabNew{
+    color:white;
+    background-color: var(--i);
+}
+
+div, .settName, .floatR, .floatR > span{
+    color: white;
+}
+
+.verticalSeparator{
+    color: var(--i);
+}
+
+#subLogoButtons > div{
+    border-radius: 25px;
+    text-shadow: none!important;
+    transition: 0.01ms;
+    background-color: var(--i)!important;
+    box-shadow: none!important;
+}
+
+.headerBarRight.headerBar, #endAHolderL, .reqW{
+    background-color: var(--i);
+}
+
+#endAContainer, #merchImg{
+    display: none;
+}
+
+.reqWLvl, .reqWTxt{
+    color: white;
+}
+
+#accName, #accName::placeholder, #accPass, #accPass::placeholder{
+    color: white;
+    background-color: var(--i);
+}
+#accResp{
+    color: white!important;
+    font-size: 20px;
+}
+
+#accResp > span{
+    color:cyan!important;
+    text-decoration: underline;
+}
+.accountButton{
+    background-color: var(--i);
+    color: white;
+    font-size: 25px;
+}
+
+.button.lgn{
+    background-color: var(--i);
+    text-shadow: none!important;
+    box-shadow: none;
+}
+
+.sliderVal, .slider, input:checked+.slider{
+    background-color: var(--i);
+}
+
+.settingTab{
+    box-shadow: none;
+    background-color: var(--i);
+    color: white;
+}
+#chatList::-webkit-scrollbar-track, #chatList::-webkit-scrollbar-button{
+    background-color: var(--i);
+}
+
+#chatInput{
+    background-color: var(--i);
+    color: white;
+}
+
+.chatMsg{
+    font-size: 16px;
+    background-color: var(--i);
+}
+
+.chatItem, #customizeButton, #killCard{
+    background-color: var(--i);
+}
+
+#customizeButton{
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.verticalSeparator{
+    opacity: 0;
+}
+
+#claimImg{
+    transform: scale(0.5);
+}
+
+#instructions{
+    font-size: smaller;
+    text-shadow: none;
+    animation-name: a;
+    animation-duration: 2s;
+}
+
+@keyframes a {
+    from{
+        font-size: 20px;
+        opacity: 0.5;
+    }
+}
+
+#kCProfile{
+    border-radius: 25px;
+}
+
+#menuFPS{
+    font-size: 20px;
+    color: #64dd17!important;
+}
+#menuPingDisplay{
+    font-size: 25px;
+    color: white!important;
+}
+
+#gameMessage{
+    font-size: 30px;
+    text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+}
