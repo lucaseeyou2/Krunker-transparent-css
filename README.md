@@ -9,3 +9,5 @@ The usage of the following resources can only be used on Browsers and Also the c
 * v2 Adding **social.custom.css**, renamed **main.css to main_custom.css**, and updating **README.md**.
 * v3 Reworked the folders, the files, added the **Poppins** font, so you don't have to download it. They are in the fonts folder.
 * v3.1 Reworked main_custom.css due to html changes in Krunker (see update 2.7.3)
+
+PS : Updates are coming soon ;)
